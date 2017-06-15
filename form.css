@@ -16,10 +16,7 @@ form{
   text-align:center;
   width: 85%;
   height: 700px;
-  position: absolute;
-  top: 28%;
-  left: 38.5%;
-  margin: -150px 0 0 -300px;
+  margin-left: 65px;
   font-family: "Noto Sans TC", "Microsoft JhengHe";
 }
 

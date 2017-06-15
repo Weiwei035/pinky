@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Pinoy Share Platfrom</title>
+        <link rel=stylesheet media="screen" href="form.css">
+
+        <style>
+        @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+        {font-family: "Noto Sans TC", "Microsoft JhengHe";}
+        </style>
+
+    </head>
+    <body>
+        <div id="topic"><img id="top" src="img/top.png" alt="pinoy"></div>
+          <h2>Share Your Work Experience!</h2>
+        <form>
+            <form action="https://docs.google.com/spreadsheets/d/1vhYG8TnedmMDjipJRsUykOxoxjojd7EF7QDoRR3gBP4/edit#gid=1556363660" method="text">
+
+            <span class="wordcss">Company Name :</span><input class="company" type="text" required ></br>
+            <span class="wordcss">Job Position :</span><input class="position" type="text" required >
+
+            <span class="wordcss">Job Category :</span>
+            <select class="category" required>
+            <option value="">Please select</option>
+            <option value="factoryworker">Factory Worker</option>
+            <option value="fisherman">Fisherman</option>
+            <option value="household">Household worker</option>
+            </select></br>
+
+            <span class="wordcss">During :</span>
+            <input type="date" class="during" required placeholder="Start working day">
+            <span class="wordcss">&nbsp; ~ &nbsp;</span>
+            <input type="date" class="during" required placeholder="End day">
+
+            <span class="wordcss">Wage :</span>
+            <input class="wage" type="number" required placeholder=" 0 ">
+            <span class="wordcss">&nbsp; NTD&nbsp; </span>
+            <select class="wage" required>
+            <option value="">per_</option>
+            <option value="day">/Day</option>
+            <option value="week">/Week</option>
+            <option value="month">/Month</option>
+            </select>
+
+            <span class="wordcss"> &nbsp;Rate :</span>
+            <select class="wage"required>
+            <option value="">_/5</option>
+            <option value="1">1/5</option>
+            <option value="2">2/5</option>
+            <option value="3">3/5</option>
+            <option value="4">4/5</option>
+            <option value="5">5/5</option>
+            </select></br>
+
+            <span class="wordcss">Rent :</span>
+            <input  class="rent" type="number" required placeholder=" 0 ">
+            <span class="wordcss">&nbsp; NTD&nbsp; </span>
+            <select class="rent" required>
+            <option value="">per_</option>
+            <option value="day">/Day</option>
+            <option value="week">/Week</option>
+            <option value="month">/Month</option>
+            </select>
+
+            <span class="wordcss"> &nbsp;Rate :</span>
+            <select class="rent" required>
+            <option value="" >_/5</option>
+            <option value="1">1/5</option>
+            <option value="2">2/5</option>
+            <option value="3">3/5</option>
+            <option value="4">4/5</option>
+            <option value="5">5/5</option>
+            </select></br>
+
+            <span class="wordcss">Day-off :</span>
+            <input class="dayoff" type="number" required placeholder=" 0 ">
+            <span class="wordcss">&nbsp; Day&nbsp; </span>
+            <select class="dayoff" required>
+            <option value="">per_</option>
+            <option value="week">/week</option>
+            <option value="month">/month</option>
+            </select>
+
+            <span class="wordcss"> &nbsp;Rate :</span>
+            <select class="dayoff" required>
+            <option value="" >_/5</option>
+            <option value="1">1/5</option>
+            <option value="2">2/5</option>
+            <option value="3">3/5</option>
+            <option value="4">4/5</option>
+            <option value="5">5/5</option>
+            </select></br>
+
+            </br>
+            <textarea cols="51" rows="7" id="comment" placeholder="Comment :"></textarea>
+            <input type="submit" value="Submit" id="submit">
+
+        </form>
+    </body>
+</html>

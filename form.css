@@ -64,16 +64,16 @@ input[type=submit]{
   width:73%
 }
 .during{
-  width:39.15%;
+  width:38.3%;
 }
 .wage{
-  width:21%;
+  width:19.9%;
 }
 .rent{
-  width:21.5%;
+  width:20.5%;
 }
 .dayoff{
-  width:20.2%;
+  width:19%;
 }
 
 
@@ -108,3 +108,4 @@ option{
   font-size:10px;
 }
 /*}*/
+
